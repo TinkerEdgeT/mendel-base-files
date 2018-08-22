@@ -1,8 +1,9 @@
-PRETTY_NAME="Debian #OSNAME# 9 (stretch)"
-NAME="Debian #OSNAME#"
-VERSION_ID="9"
-VERSION="9 (stretch)"
-ID=debian
-HOME_URL="https://www.debian.org/"
-SUPPORT_URL="https://www.debian.org/support"
-BUG_REPORT_URL="https://bugs.debian.org/"
+PRETTY_NAME="Mendel #OSNAME# 1 (Animal)"
+NAME="Mendel #OSNAME#"
+VERSION_ID="1"
+VERSION="1 (animal)"
+ID=mendel
+ID_LIKE=debian
+HOME_URL="https://aiyprojects.withgoogle.com/"
+SUPPORT_URL="https://aiyprojects.withgoogle.com/"
+BUG_REPORT_URL="https://aiyprojects.withgoogle.com/"
