@@ -1,4 +1,4 @@
-base-files (1.0) animal; urgency=medium
+base-files (9.9+mendel1) animal; urgency=medium
 
   * Initial fork of the original Debian base-files package for Mendel.
 
