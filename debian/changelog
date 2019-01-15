@@ -1,3 +1,10 @@
+base-files (9.9+mendel3) UNRELEASED; urgency=medium
+
+  * vendorfile: force pointing to the correct vendor file if it points to
+	the wrong location.
+
+ -- AIY Projects <support-aiyprojects@google.com>  Mon, 14 Jan 2019 16:36:44 -0800
+
 base-files (9.9+mendel2) animal; urgency=medium
 
   * vendorfile: point to the correct vendor file.
