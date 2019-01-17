@@ -1,4 +1,4 @@
-base-files (9.9-mendel2) mendel-beaker; urgency=medium
+base-files (9.9+mendel2) mendel-beaker; urgency=medium
 
   * Cut for beaker release and normalization of version.
   * vendorfile: force pointing to the correct vendor file if it points to the wrong location.
