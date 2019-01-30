@@ -2,4 +2,6 @@ DISTRIB_CODENAME=beaker
 DISTRIB_DESCRIPTION="Mendel GNU/Linux Beaker"
 DISTRIB_ID=Mendel
 DISTRIB_RELEASE=mendel-beaker
-
+PRETTY_NAME="Mendel"
+NAME="Mendel"
+ID=Mendel
