@@ -2,7 +2,7 @@ base-files (9.9+mendel3) mendel-beaker; urgency=medium
 
   * lsb-release: Add in additional LSB files to make 'lsb_release -a' happy.
 
- -- AIY Projects <coral-support@google.com>  Tue, 22 Jan 2019 16:37:00 -0800
+ -- Coral <coral-support@google.com>  Tue, 22 Jan 2019 16:37:00 -0800
 
 base-files (9.9+mendel2) mendel-beaker; urgency=medium
 
@@ -10,10 +10,10 @@ base-files (9.9+mendel2) mendel-beaker; urgency=medium
   * vendorfile: force pointing to the correct vendor file if it points to the wrong location.
   * vendorfile: point to the correct vendor file.
 
- -- AIY Projects <coral-support@google.com>  Wed, 16 Jan 2019 12:00:00 -0800
+ -- Coral <coral-support@google.com>  Wed, 16 Jan 2019 12:00:00 -0800
 
 base-files (9.9+mendel1) animal; urgency=medium
 
   * Initial fork of the original Debian base-files package for Mendel.
 
- -- AIY Projects <coral-support@google.com>  Wed, 22 Aug 2018 14:18:44 -0700
+ -- Coral <coral-support@google.com>  Wed, 22 Aug 2018 14:18:44 -0700
