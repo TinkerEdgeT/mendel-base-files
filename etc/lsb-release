@@ -1,7 +1,7 @@
-DISTRIB_CODENAME=beaker
-DISTRIB_DESCRIPTION="Mendel GNU/Linux Beaker"
+DISTRIB_CODENAME=chef
+DISTRIB_DESCRIPTION="Mendel GNU/Linux Chef"
 DISTRIB_ID=Mendel
-DISTRIB_RELEASE=mendel-beaker
+DISTRIB_RELEASE=mendel-chef
 PRETTY_NAME="Mendel"
 NAME="Mendel"
 ID=Mendel

@@ -1,3 +1,10 @@
+base-files (9.9+mendel5)  mendel-chef; urgency=medium
+
+  * debian_version: Force-remove the symlink
+  * origins: Fix the vendor-url and bugs url
+
+ -- Coral <support-aiyprojects@google.com>  Tue, 19 Mar 2019 17:07:01 -0700
+
 base-files (9.9+mendel4) mendel-beaker; urgency=medium
 
   * Reinstate a sane debian_version file based upon the version of Debian we're running.
