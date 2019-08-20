@@ -1,9 +1,8 @@
-PRETTY_NAME="Mendel #OSNAME# 3 (Chef)"
+PRETTY_NAME="Mendel #OSNAME# 4 (Day)"
 NAME="Mendel #OSNAME#"
-VERSION_ID="3"
-VERSION="3 (chef)"
 ID=mendel
 ID_LIKE=debian
 HOME_URL="https://coral.withgoogle.com/"
 SUPPORT_URL="https://coral.withgoogle.com/"
 BUG_REPORT_URL="https://coral.withgoogle.com/"
+VERSION_CODENAME="day"
