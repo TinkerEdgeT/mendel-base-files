@@ -44,13 +44,13 @@ update_to_current_default() {
   fi
 }
 
-if [ -e /etc/dpkg/origins/#VENDORFILE# ]; then
-  ln -sf /etc/dpkg/origins/#VENDORFILE# /etc/dpkg/origins/default
+if [ ! -e /etc/dpkg/origins/default ]; then
+  if [ -e /etc/dpkg/origins/#VENDORFILE# ]; then
+    ln -sf /etc/dpkg/origins/#VENDORFILE# /etc/dpkg/origins/default
+  fi
 fi
 
 if [ "$1" = "configure" ] && [ "$2" = "" ]; then
-  install_from_default staff-group-for-usr-local \
-                                     /etc/staff-group-for-usr-local
   install_from_default dot.profile   /root/.profile
   install_from_default dot.bashrc    /root/.bashrc
   install_from_default profile       /etc/profile
@@ -119,9 +119,4 @@ if [ "$1" = "configure" ] && [ "$2" != "" ]; then
   if dpkg --compare-versions "$2" lt-nl "7.7"; then
     install_directory mnt 755 root
   fi
-fi
-
-if dpkg --compare-versions "$2" lt-nl "6.10"; then
-  install_from_default staff-group-for-usr-local \
-    /etc/staff-group-for-usr-local
 fi
