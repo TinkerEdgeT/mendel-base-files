@@ -1,3 +1,9 @@
+base-files (10.3+mendel2) mendel-eagle; urgency=medium
+
+  * Bump for the Eagle 5.0 release
+
+ -- Coral <coral-support@google.com>  Mon, 13 Jul 2020 17:00:13 -0500
+
 base-files (10.3+mendel1) mendel-day; urgency=medium
 
   * Bump for the Day 4.0 release
